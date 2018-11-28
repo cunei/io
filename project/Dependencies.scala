@@ -10,7 +10,7 @@ object Dependencies {
   val scalaCompiler = Def.setting { "org.scala-lang" % "scala-compiler" % scalaVersion.value }
 
   val scalaCheck = "org.scalacheck" %% "scalacheck" % "1.14.0"
-  val scalatest = "org.scalatest" %% "scalatest" % "3.0.6-SNAP3"
+  val scalatest = "org.scalatest" %% "scalatest" % "3.0.6-SNAP5"
   val jna = "net.java.dev.jna" % "jna" % "4.5.0"
   val jnaPlatform = "net.java.dev.jna" % "jna-platform" % "4.5.0"
   val swovalFiles = "com.swoval" % "file-tree-views" % "2.0.4"
